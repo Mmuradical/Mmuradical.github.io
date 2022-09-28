@@ -1,0 +1,224 @@
+.brand {
+ 	display: inline-block;
+	width: 1521px;
+	height: 53px;
+	background-color: #4e8f82;
+	margin-block-start: -8px;
+	margin-inline-start: -10px;
+	margin-inline-end: -14px;
+
+
+}
+
+ #logo{
+ 	margin-left: 25px;
+ 	display: inline;
+ 	color: white;
+	font-size: 45px;
+	font-family: Brush Script MT;
+	font-weight: lighter;
+
+ }
+
+#menu{ 
+
+	display: inline;
+ 	color: white;
+	font-size: 45px;
+	font-family: Brush Script MT;
+	font-weight: lighter;
+	margin-left: 690px;
+	
+ }
+
+ #burgerMenu{
+ 	display: inline;
+ 	width: 50px; 
+ 	vertical-align: bottom;
+ 	float: right;
+ 	margin-right: 5px;
+
+
+ }
+
+
+.bar {
+
+
+	/*color: white;*/
+	font-size: 14px;
+	text-align: center;
+	text-indent: 10px;
+	
+	vertical-align: bottom;
+
+
+	width: 1521px;
+	height: 32px;
+	background-color: #9ac5c0;
+	margin-block-start: -18px;
+	margin-inline-start: -10px;
+	margin-inline-end: -14px;
+
+}
+
+.left{
+	position: absolute;
+	display: inline-block;
+	float: left;
+	width: 50%;
+
+
+	width: 386px;
+	height: 725px;
+	background-color: #e5e3e7;
+	/*border:solid black 1px;*/
+	margin-inline-start: -10px;
+	margin-block-start: 37px;
+
+}
+
+#ingredients {
+	/*position: static;*/
+	font-size: 25px;
+	text-align: center;
+}
+
+
+#video {
+	position: static;
+	display: inline-block;
+	float: left;
+	width: 50%;
+
+	width: 386px;
+	height: 225px;
+	margin-block-start: 116px;
+
+ 	
+}
+
+#credit{
+	text-align: center;
+	font-size: 14px;
+	/*color: #5B585C;*/
+
+
+}
+
+#drink {
+
+	float: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+
+	width:675px;
+	margin-block-start: 37px;
+}
+
+.directions{
+
+	float: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+	border:solid black px;
+	width:635px;
+	height:640px;
+
+
+}
+
+#instructions { 
+
+	text-align: center;
+	font-size: 30px;
+
+
+}
+
+
+.nutrition{
+
+	position: relative;
+	float: right;
+	margin-block-start: -1048px;
+	font-size: 20px;
+    margin-right: 75px;
+
+
+}
+
+table{
+
+	border-spacing: 7px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+
+td:nth-child(even), th:nth-child(even) {
+  background-color: #9ac5c0;
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+  border: solid 1px #4e8f82;
+}
+
+
+#recc{
+
+	float: right;
+	margin-block-start: -425px;
+	margin-right: 120px;
+}
+
+#martini{
+
+	width: 250px;
+	float: right;
+	margin-block-start: -385px;
+	margin-right: 55px;
+
+}
+
+#vesper{
+
+
+	float: right;
+	margin-block-start: -220px;
+	margin-right: 199px;
+}
+
+#pinaColada{
+	width: 250px;
+	float: right;
+	margin-block-start: -180px;
+	margin-right: 55px;
+}
+
+#pina{
+
+	float: right;
+	margin-block-start: -4px;
+	margin-right: 218px;
+}
+
+.footing{
+
+	display: inline-block;
+	width: 1521px;
+	height: 100px;
+	background-color: #5B585C;
+	margin-inline-start: -10px;
+	margin-inline-end: -14px;
+	margin-block-start: 50px;
+
+}
