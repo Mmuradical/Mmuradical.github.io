@@ -1,0 +1,78 @@
+#credits {
+	
+	position: relative;
+	display: block;
+    margin: 0px;
+	width: 1532px;
+	height: 805px;
+	
+}
+
+#backArrow {
+
+	 position: absolute;
+	 width: 50px;
+  	top: 32px;
+  	left: 50px;
+
+}
+
+ #action{
+
+ 	position: absolute;
+ 	width: 150px;
+  	top: 675px;
+  	left: 1050px;
+
+ }
+
+ .watchCredits{
+
+ 	position: absolute;
+    display: block;
+    width: 12%;
+    border: none;
+    border-radius:6px;
+    background-color: #4d4d4d;
+    color: white;
+    padding: 8px 10px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+
+	top: 625px;
+	left: 1055px;
+
+ }
+
+ .next{
+
+ 	position: absolute;
+    display: block;
+    width: 15%;
+    border: none;
+    border-radius:6px;
+    background-color: white;
+    color: black;
+    padding: 8px 10px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+
+	top: 625px;
+	left: 1260px;
+
+ }
+
+#next {
+
+	position: absolute;
+	display: block;
+	font-size: 6px;
+	color: white;
+
+	top: 700px;
+	left: 1160px;
+
+
+ }
