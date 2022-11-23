@@ -1,12 +1,8 @@
-
-
 .text {
 
 	color: white;
 	font-size: 18px;
 }
-
-
 
 #dealer-cards img { 
 /*Defines the height, width and margin of the dealer's cards*/
@@ -53,7 +49,7 @@
 
 }
 
-#win img {
+#tie img, #loser img, #loser2 img, #win img, #win2 img {
 	display: inline-block;
 	width: 500px;
 	margin-top: 240px;
@@ -61,45 +57,6 @@
 
 position: fixed;
 
-}
-
-#win2 img {
-	display: inline-block;
-	width: 500px;
-	margin-top: 240px;
-	margin-left: -750px;
-
-position: fixed;
-
-}
-
-
-#tie img {
-	display: inline-block;
-	width: 500px;
-	margin-top: 240px;
-	margin-left: -750px;
-
-position: fixed;
-
-}
-
-#loser img {
-	display: inline-block;
-	width: 475px;
-	margin-top: 300px;
-	margin-left: -750px;
-
-position: fixed;
-}
-
-#loser2 img {
-	display: inline-block;
-	width: 475px;
-	margin-top: 210px;
-	margin-left: -750px;
-
-position: fixed;
 }
 
 #results {
@@ -118,8 +75,7 @@ h2 {
 }
 body {
     font-family: Arial, Helvetica, sans-serif; /*Sets the font*/
-    text-align: center; 
-/*Aligns the Text and images to the center*/
+    text-align: center; /*Aligns the Text and images to the center*/
     background-color: #008000;
     color: white;
     font-size: 30px;

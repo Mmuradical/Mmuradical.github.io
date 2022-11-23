@@ -17,6 +17,11 @@ window.onload = function() {
     buildDeck();
     shuffleDeck();
     startGame();
+     document.getElementById('win').style.visibility = "hidden";
+   document.getElementById('win2').style.visibility = "hidden";
+   document.getElementById('tie').style.visibility = "hidden";
+   document.getElementById('loser').style.visibility = "hidden";
+   document.getElementById('loser2').style.visibility = "hidden";
 
 
 }
@@ -48,11 +53,7 @@ function shuffleDeck() { //Create a function shuffleDeck so that the deck shuffl
 }
 
 function startGame() {
-   document.getElementById('win').style.visibility = "hidden";
-   document.getElementById('win2').style.visibility = "hidden";
-   document.getElementById('tie').style.visibility = "hidden";
-   document.getElementById('loser').style.visibility = "hidden";
-   document.getElementById('loser2').style.visibility = "hidden";
+  
     hidden = deck.pop(); // removes a card from the end of the array
     dealerSum += getValue(hidden); //Obtains the value of the card
     dealerAceCount += checkAce(hidden);
@@ -111,11 +112,6 @@ function hit() { //Define the hit function based on canHit and the player's scor
         canHit = false; //makes sure that the hit button doesnt work after the sum is greater than 21.
     }
   
-// function reset() {
-//     deck = undefined;
-//     dealerSum = 0;
-//     yourSum = 0;
-// }
 
 }
 
