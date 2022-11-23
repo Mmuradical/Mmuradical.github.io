@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="blackjack.css">
+        <script src="blackjack.js"></script>
+    </head>
+
+    <body>
+        <div id="win"> 
+                    <img src="https://media.giphy.com/media/l3q2Z6S6n38zjPswo/giphy.gif">
+            </div>
+        <div id="win2"> 
+                    <img src="https://media.giphy.com/media/l0HTYUmU67pLWv1a8/giphy.gif">
+            </div>
+        <div id="tie"> 
+                    <img src="https://media.giphy.com/media/8JQ4flkrY8HewPqvrT/giphy-downsized-large.gif">
+            </div>
+        <div id="loser"> 
+                    <img src="https://media.giphy.com/media/JURFyU2wlM2DS/giphy.gif">
+            </div>
+         <div id="loser2"> 
+                    <img src="https://media.giphy.com/media/pOTvR5CtiB4sWMFHPG/giphy.gif">
+            </div>
+
+        <div class="text">
+        <h2>Dealer: <span id="dealer-sum"></span></h2> <!-- heading for the dealer and the dealer's score -->
+
+         </div>
+         <div id="dealer-cards"> <!--create a div for the images of the ddealer's cards -->
+            <img id="hidden" src="./cards/BACK.png"> <!-- Image of the dealer's hidden card -->
+        </div>
+<div>
+            <!-- <p id="results"></p> Outputs the results of the game -->
+            
+</div> 
+
+    <div class="text">
+        <h2>You: <span id="your-sum"></span></h2><!-- heading for the Player and the Player's score -->
+
+        </div>
+         <div id="your-cards"></div>  <!--Create a div specifically for the user's cards-->
+        <br> <!--Break Line-->
+        <button id="hit"><strong>Hit</button> <!-- Creates the hit button -->
+        <button id="stay"><strong>Stay</button> <!-- Creates the stay button -->
+        <!-- <button id="playagain" onclick="clickPlayagain()"><strong>Play Again</button> -->
+        <p id="results"></p> <!-- Outputs the results of the game -->
+
+        
+    </body>
+</html>
+
+
